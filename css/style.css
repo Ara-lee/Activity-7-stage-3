@@ -1,0 +1,575 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-bar {
+  background-color: #fff;
+  padding: 0.1rem 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: xx-large;
+  color: #bbbbbb;
+}
+
+.hero-section {
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #fff;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* padding-left: 5rem; */
+  padding: 10rem 0 5rem 7rem;
+}
+
+.hero-section h1 {
+  font-size: 8rem;
+  font-weight: 900;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.hero-section h4 {
+  font-size: 5rem;
+  font-weight: normal;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.hero-line {
+  border: #fff solid 5px;
+  width: 38rem;
+}
+
+.hero-section .hero-icons {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  align-items: baseline;
+}
+.hero-section .hero-icons h5 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.hero-icons .cleaning {
+  margin: 6rem;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.painting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plumbing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-section {
+  background-color: #f2f2f2;
+  padding: 10rem 10rem 5rem 10rem;
+  text-align: center;
+}
+
+.service-section h5 {
+  color: #999999;
+  font-size: larger;
+}
+
+.service-section h3 {
+  font-size: xx-large;
+}
+.service-section p {
+  font-weight: lighter;
+  padding-top: 1.5rem;
+}
+
+.book-now-btn {
+  background-color: #e71a23;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border: 0px solid transparent;
+  border-radius: 4px;
+  color: white;
+}
+
+.need-help-section {
+  padding: 4rem 9rem 4rem 9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.need-help-section p {
+  padding: 3.5rem 3.5rem 0 3.5rem;
+  text-align: justify;
+  width: 28rem;
+}
+
+.need-help-section .ac-need-help {
+  padding-left: 2rem;
+}
+
+.need-help-section .ac-need-help h4 {
+  font-size: xx-large;
+  padding-bottom: 2rem;
+}
+.need-help-section .ac-need-help h5 {
+  font-size: x-large;
+  color: #e71a23;
+  padding-bottom: 4rem;
+}
+
+.best-quality-section {
+  background-color: #d7d5da;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem 5rem 0 5rem;
+}
+.best-quality-section img {
+  height: 40rem;
+}
+
+.best-quality-section .helmet-text {
+  padding: 3rem;
+}
+
+.best-quality-section .helmet-text h3 {
+  font-size: 4rem;
+  color: #104e92;
+  padding-bottom: 2rem;
+}
+.best-line {
+  border: 5px solid red;
+  width: 36rem;
+}
+.helmet-text p {
+  /* padding: 5rem 5rem 5rem 0; */
+  font-size: 1.4rem;
+  padding-top: 2rem;
+  font-weight: lighter;
+}
+
+.our-section {
+  padding: 3rem 7rem 6rem 7rem;
+}
+.our-section h2 {
+  font-size: 3.5rem;
+}
+.services {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3.5rem;
+}
+.paint-icon {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.electric-icon {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.repair-icon {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services h5 {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.painting-service {
+  padding: 0 2rem 0 3rem;
+}
+.electrical {
+  padding: 0 3rem 0 2rem;
+}
+.repair {
+  padding: 0 3rem 0 3rem;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #104e92;
+  color: white;
+  padding: 4rem 8rem;
+}
+.about-us-container h6 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+.about-us-container h3 {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.about-us-img {
+  display: flex;
+  flex-direction: column;
+}
+.img-set-1 {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2rem;
+}
+.img-set-2 {
+  display: flex;
+  flex-direction: row;
+}
+.about-us-img .img-1 {
+  background-image: url(../images/frg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  width: 15rem;
+  background-repeat: no-repeat;
+  margin-right: 2rem;
+}
+.about-us-img .img-2 {
+  background-image: url(../images/rg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  width: 15rem;
+  background-repeat: no-repeat;
+}
+.about-us-img .img-3 {
+  background-image: url(../images/billionphotos1882993.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  width: 15rem;
+  background-repeat: no-repeat;
+  margin-right: 2rem;
+}
+.about-us-img .img-4 {
+  background-image: url(../images/billionphotos1882951.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  width: 15rem;
+  background-repeat: no-repeat;
+}
+
+.to-do {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+.to-do h2 {
+  font-size: 2.7rem;
+}
+.to-do p {
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+.to-do .btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.call-us-btn {
+  background-color: transparent;
+  margin-top: 2rem;
+  padding: 1rem 3.2rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: black;
+  margin-left: 1rem;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero-section .hero-container {
+    padding: 20rem 0 2rem 4rem;
+  }
+  .hero-section h4 {
+    font-size: 4rem;
+  }
+  .hero-section h1 {
+    font-size: 8rem;
+  }
+  .hero-line {
+    width: 38rem;
+  }
+  .hero-icons .cleaning {
+    margin: 9rem;
+    margin-top: 0;
+  }
+  .need-help-section {
+    flex-direction: column;
+    padding: 4rem 6rem;
+  }
+  .need-help-section .plan-container img {
+    width: 100%;
+  }
+  .need-help-section .ac-need-help img {
+    width: 100%;
+  }
+  .need-help-section .ac-need-help {
+    padding-left: 0;
+    padding-top: 3rem;
+  }
+  .need-help-section p {
+    text-align: left;
+    width: 38rem;
+  }
+  .need-help-section .ac-need-help h4 {
+    padding-bottom: 1rem;
+    padding-left: 3.5rem;
+  }
+  .need-help-section .ac-need-help h5 {
+    padding-left: 3.5rem;
+  }
+  .best-quality-section {
+    align-items: flex-end;
+    padding: 2rem 2rem 0 2rem;
+  }
+  .best-quality-section img {
+    height: 30rem;
+    /* width: 20rem; */
+  }
+  .best-quality-section .helmet-text h3 {
+    font-size: 3rem;
+  }
+  .best-line {
+    width: 18rem;
+  }
+  .helmet-text p {
+    font-size: 1rem;
+  }
+  .our-section {
+    padding: 3rem 4rem 3rem 4rem;
+  }
+  .electrical {
+    padding: 0;
+  }
+  .repair {
+    padding: 0 3rem 0 2rem;
+  }
+  ​ .about-us {
+    flex-direction: column;
+    padding: 4rem 2rem;
+    align-items: flex-start;
+  }
+  .about-us-container h3 {
+    font-size: 4rem;
+    line-height: 1;
+    text-align: left;
+    align-items: flex-start;
+  }
+  ​ .about-us-container {
+    padding-bottom: 2rem;
+  }
+  .about-us-img {
+    padding-left: 1rem;
+  }
+  .about-us-img .img-1 {
+    height: 20rem;
+    width: 20rem;
+  }
+  .about-us-img .img-2 {
+    height: 20rem;
+    width: 20rem;
+  }
+  .about-us-img .img-3 {
+    height: 20rem;
+    width: 20rem;
+  }
+  .about-us-img .img-4 {
+    height: 20rem;
+    width: 20rem;
+  }
+  .to-do h2 {
+    font-size: 2rem;
+  }
+  .to-do p {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+​ @media (max-width: 767px) {
+  .hero-section {
+    background-position: right;
+  }
+  ​ .hero-section .hero-icons {
+    display: none;
+  }
+  ​ .hero-section .hero-container {
+    padding: 38rem 0 0 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .hero-section h4 {
+    font-size: 2rem;
+  }
+  .hero-section h1 {
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+  }
+  .hero-line {
+    width: 15rem;
+  }
+  .service-section {
+    background-color: #f2f2f2;
+    padding: 5rem 5rem 2rem 5rem;
+    text-align: center;
+  }
+  ​ .need-help-section {
+    flex-direction: column;
+    padding: 4rem 4rem;
+  }
+  .need-help-section .plan-container img {
+    width: 100%;
+  }
+  .need-help-section .ac-need-help img {
+    width: 100%;
+  }
+  .need-help-section .ac-need-help {
+    padding-left: 0;
+    padding-top: 1.5rem;
+  }
+  .need-help-section p {
+    text-align: start;
+    width: 15rem;
+    padding: 2rem 0 0 1rem;
+    font-size: 1rem;
+  }
+  .need-help-section .ac-need-help h4 {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+  .need-help-section .ac-need-help h5 {
+    font-size: 0.98rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+  ​ .best-quality-section {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 5rem;
+  }
+  .best-quality-section .helmet-text {
+    padding: 0;
+    padding-top: 5rem;
+  }
+  .best-quality-section .helmet-text h3 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+  .best-quality-section img {
+    height: 23rem;
+  }
+  ​ .best-line {
+    width: 15rem;
+  }
+  .helmet-text p {
+    font-size: 1rem;
+  }
+  ​ .our-section {
+    padding: 3rem;
+  }
+  .services {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.5rem;
+  }
+  .our-section h2 {
+    font-size: 2.9rem;
+  }
+  .painting-service {
+    padding: 0;
+  }
+  .electrical {
+    padding: 3.5rem 0 0 0;
+  }
+  .repair {
+    padding: 3.5rem 0 0 0;
+  }
+  .about-us {
+    flex-direction: column;
+  }
+  .img-set-1 {
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  .img-set-1 .img-1 {
+    margin-bottom: 2rem;
+    margin-right: 0;
+  }
+  .img-set-2 .img-3 {
+    margin-bottom: 2rem;
+    margin-right: o;
+  }
+  ​ .img-set-2 {
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+  .about-us-container h3 {
+    font-size: 4rem;
+    line-height: 1;
+    text-align: left;
+  }
+  .to-do h2 {
+    font-size: 1.8rem;
+  }
+  .to-do p {
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+    width: 16rem;
+  }
+  .to-do .btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .call-us-btn {
+    margin-left: 0;
+  }
+}
