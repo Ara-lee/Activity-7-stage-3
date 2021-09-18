@@ -390,7 +390,8 @@
   .repair {
     padding: 0 3rem 0 2rem;
   }
-  ​ .about-us {
+
+  .about-us {
     flex-direction: column;
     padding: 4rem 2rem;
     align-items: flex-start;
@@ -401,7 +402,8 @@
     text-align: left;
     align-items: flex-start;
   }
-  ​ .about-us-container {
+
+  .about-us-container {
     padding-bottom: 2rem;
   }
   .about-us-img {
@@ -431,14 +433,17 @@
     padding-bottom: 1.5rem;
   }
 }
-​ @media (max-width: 767px) {
+
+@media (max-width: 767px) {
   .hero-section {
     background-position: right;
   }
-  ​ .hero-section .hero-icons {
+
+  .hero-section .hero-icons {
     display: none;
   }
-  ​ .hero-section .hero-container {
+
+  .hero-section .hero-container {
     padding: 38rem 0 0 4rem;
     display: flex;
     flex-direction: column;
@@ -459,7 +464,8 @@
     padding: 5rem 5rem 2rem 5rem;
     text-align: center;
   }
-  ​ .need-help-section {
+
+  .need-help-section {
     flex-direction: column;
     padding: 4rem 4rem;
   }
@@ -489,7 +495,8 @@
     padding-left: 1rem;
     padding-bottom: 1rem;
   }
-  ​ .best-quality-section {
+
+  .best-quality-section {
     flex-direction: column;
     align-items: flex-start;
     padding: 2rem 5rem;
@@ -505,13 +512,15 @@
   .best-quality-section img {
     height: 23rem;
   }
-  ​ .best-line {
+
+  .best-line {
     width: 15rem;
   }
   .helmet-text p {
     font-size: 1rem;
   }
-  ​ .our-section {
+
+  .our-section {
     padding: 3rem;
   }
   .services {
@@ -547,7 +556,8 @@
     margin-bottom: 2rem;
     margin-right: o;
   }
-  ​ .img-set-2 {
+
+  .img-set-2 {
     flex-direction: column;
     padding-bottom: 2rem;
   }
